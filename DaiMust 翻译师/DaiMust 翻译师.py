@@ -13,7 +13,6 @@ ip = requests.get('https://api.ipify.org').text
 def translate_text():
     text = text_input.get("1.0", tk.END).strip()
 
-    # 使用您的百度翻译App ID和密钥
     app_id = '20231028001862484'
     app_key = 'oe_GmnbkcyggiWCPYepZ'
 
