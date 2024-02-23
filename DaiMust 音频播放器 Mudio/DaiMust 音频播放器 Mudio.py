@@ -4,8 +4,6 @@ from tkinter import filedialog, messagebox
 import pygame.mixer
 import threading
 
-
-# Tesret Studio 用有此程序的编译著作权和管理权，请勿擅自将此程序进行改编或进行任何商业或盈利行为。
 # 若对程序的合法性或相关权益存在质疑或反驳，请将合法证明和叙述发送到 caslen08@icloud.com，我们会积极跟进。
 
 class MusicPlayer(tk.Tk):
@@ -104,7 +102,7 @@ class MusicPlayer(tk.Tk):
         pygame.mixer.music.set_volume(volume / 100)
 
     def show_about(self):
-        messagebox.showinfo("关于", '感谢使用DaiMust音频播放器。\n技术支持：caslen08@icloud.com\n版权所有：Tesret Studio')
+        messagebox.showinfo("关于", '感谢使用DaiMust音频播放器。\n技术支持：caslen08@icloud.com\n')
 
     def load_music_files(self, folder_path):
         self.music_files.clear()
