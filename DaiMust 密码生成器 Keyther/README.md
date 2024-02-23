@@ -1,6 +1,5 @@
 # DaiMust 系列软件：DaiMust 密码生成器 / Keyther
 ### 技术支持：caslen08@icloud.com  
-### Tesret Studio 用有此程序的编译著作权和管理权，请勿擅自将此程序进行改编或进行任何商业或盈利行为。  
 ### 若对程序的合法性或相关权益存在质疑或反驳，请将合法证明和叙述发送到 caslen08@icloud.com，我们会积极跟进。  
 
 ## 使用教程：
