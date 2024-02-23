@@ -5,6 +5,8 @@ import hashlib
 import random
 import json
 
+# 若对程序的合法性或相关权益存在质疑或反驳，请将合法证明和叙述发送到 caslen08@icloud.com，我们会积极跟进。
+
 app_key = ''
 
 
@@ -13,15 +15,12 @@ def save_app_key():
     app_key = key_input.get().strip()  # 获取并去除输入框两边的空白字符
     messagebox.showinfo("保存成功", "KEY已成功保存！")
 
-# Tesret Studio 用有此程序的编译著作权和管理权，请勿擅自将此程序进行改编或进行任何商业或盈利行为。
-# 若对程序的合法性或相关权益存在质疑或反驳，请将合法证明和叙述发送到 caslen08@icloud.com，我们会积极跟进。
 
 ip = requests.get('https://api.ipify.org').text
 
 def translate_text():
     text = text_input.get("1.0", tk.END).strip()
 
-    # 使用您的百度翻译App ID和密钥
     app_id = '20231028001862484'
 
     url = 'http://api.fanyi.baidu.com/api/trans/vip/translate'
@@ -86,7 +85,7 @@ def translate_text():
 
 
 def show_about_dialog():
-    messagebox.showinfo("关于此软件", "感谢使用由Tesret Studio提供的DaiMust系列软件 Ranxleta。\n本软件支持自动检测全球160+通用语言并翻译主流语言。\n有任何问题，欢迎联系技术支持caslen08@icloud.com。\n Tesret Studio拥有此软件著作权。\n感谢Baidu API提供支持。")
+    messagebox.showinfo("关于此软件", "本软件支持自动检测全球160+通用语言并翻译主流语言。\n有任何问题，欢迎联系技术支持caslen08@icloud.com。\n感谢Baidu API提供支持。")
 
 
 window = tk.Tk()
