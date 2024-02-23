@@ -4,7 +4,6 @@ import tkinter as tk
 from tkinter import messagebox
 import pyperclip
 
-# Tesret Studio 用有此程序的编译著作权和管理权，请勿擅自将此程序进行改编或进行任何商业或盈利行为。
 # 若对程序的合法性或相关权益存在质疑或反驳，请将合法证明和叙述发送到 caslen08@icloud.com，我们会积极跟进。
 
 def generate_password(length, include_uppercase, include_numbers, include_symbols):
@@ -37,9 +36,7 @@ def generate_button_clicked():
 
 def show_dialog():
     messagebox.showinfo("关于", '''
-    感谢使用由Tesret Studio提供的DaiMust系列软件 Keyther。
-    有任何问题，欢迎联系技术支持caslen08@icloud.com。
-    Tesret Studio拥有此软件著作权。''')
+    有任何问题，欢迎联系技术支持caslen08@icloud.com。''')
 
 # 创建主窗口
 window = tk.Tk()
@@ -72,7 +69,7 @@ dialog_button = tk.Button(window, text="关于此软件", command=show_dialog)
 dialog_button.pack()
 
 label = tk.Label(window, text='''生成的密码默认含有小写字母，以上选项均为可选。
-Tesret Studio DaiMust Keyther''')
+DaiMust Keyther''')
 label.pack()
 
 # 运行主循环
