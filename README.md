@@ -8,4 +8,3 @@ DaiMust 是使用 Python 为用户创造许多便携的日常小工具系列。
 --DaiMust 待办 / PlanTo  
 
 ### 仓库最新维护时间：February 25, 2024
-### 仓库内容技术支持：caslen08@icloud.com
