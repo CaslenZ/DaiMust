@@ -66,7 +66,7 @@ class TodoManager(tk.Tk):
 
     def show_about(self):
         # 显示关于信息的弹窗
-        messagebox.showinfo("关于", "DaiMust 待办\n技术支持：caslen08@outlook.com")
+        messagebox.showinfo("关于", "DaiMust 待办\nGithub @CaslenZ")
 
     def save_todos(self):
         with open("PlanToList.dmdata", "w", encoding="utf-8") as file:
