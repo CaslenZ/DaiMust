@@ -1,5 +1,5 @@
 # DaiMust 系列软件：DaiMust 待办 / PlanTo
-### 技术支持：caslen08@icloud.com  
+
 ### 若对程序的合法性或相关权益存在质疑或反驳，请将合法证明和叙述发送到 caslen08@icloud.com，我们会积极跟进。  
 
 ## 使用教程
@@ -14,7 +14,7 @@
 --程序不联网，所有信息均保存在本地。  
 --若您有其他的待办事项，可以将 PlanToList.dmdata 文件替换或修改。（使用记事本即可）  
 --PlanToList.dmdata 文件保存与读取在与 Python 文件本体同一目录下，为保证文件整齐，请您单独建立一个文件夹放置 Python 文件和 PlanToList.dmdata文件。  
---若在使用程序过程中出现任何出乎意料的漏洞或错误，请发送邮件至 caslen08@icloud.com ，并备注您的系统、系统版本和网络类型（WIFI/蜂窝网络/以太网）。  
+
 
 ## 版本更新
 V 1.0 2024-02-25 在Github上发布。  
