@@ -102,7 +102,7 @@ class MusicPlayer(tk.Tk):
         pygame.mixer.music.set_volume(volume / 100)
 
     def show_about(self):
-        messagebox.showinfo("关于", '感谢使用DaiMust音频播放器。\n技术支持：caslen08@icloud.com\n')
+        messagebox.showinfo("关于", '感谢使用DaiMust音频播放器。\nGithub @CaslenZ\n')
 
     def load_music_files(self, folder_path):
         self.music_files.clear()
