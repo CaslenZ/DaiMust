@@ -80,12 +80,11 @@ def translate_text():
             translated_output.delete("1.0", tk.END)
             translated_output.insert(tk.END, '''服务器连接错误。
             -请检查KEY是否输入错误。
-            -请联系技术支持：caslen08@icloud.com。
             -请稍后再试。''')
 
 
 def show_about_dialog():
-    messagebox.showinfo("关于此软件", "本软件支持自动检测全球160+通用语言并翻译主流语言。\n有任何问题，欢迎联系技术支持caslen08@icloud.com。\n感谢Baidu API提供支持。")
+    messagebox.showinfo("关于此软件", "本软件支持自动检测全球160+通用语言并翻译主流语言。\nGithub @CaslenZ\n感谢Baidu API提供支持。")
 
 
 window = tk.Tk()
