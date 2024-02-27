@@ -36,7 +36,7 @@ def generate_button_clicked():
 
 def show_dialog():
     messagebox.showinfo("关于", '''
-    有任何问题，欢迎联系技术支持caslen08@icloud.com。''')
+    Github @CaslenZ''')
 
 # 创建主窗口
 window = tk.Tk()
