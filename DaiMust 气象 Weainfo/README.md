@@ -1,4 +1,4 @@
-# DaiMust 系列软件：DaiMust 气象 / Weainfo [English](### DaiMust Series Software: DaiMust Weather / Weainfo)
+# DaiMust 系列软件：DaiMust 气象 / Weainfo [English](# English)
 ### 若对程序的合法性或相关权益存在质疑或反驳，请将合法证明和叙述发送到 caslen08@icloud.com，我们会积极跟进。  
 
 
@@ -32,7 +32,7 @@
 ## 版本更新
 V 1.0 2024-03-02 在Github上发布。  
 
-## DaiMust Series Software: DaiMust Weainfo
+## DaiMust Series Software: DaiMust Weainfo <a id="English"></a>
 
 ### If you have any doubts or questions about the legality or related rights of the program, please send your legal proof and description to caslen08@icloud.com, and we will follow up promptly.
 
