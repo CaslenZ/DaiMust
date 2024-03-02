@@ -1,4 +1,4 @@
-# DaiMust 系列软件：DaiMust 气象 / Weainfo [English](# English)
+# DaiMust 系列软件：DaiMust 气象 / Weainfo [Click to English](#English)
 ### 若对程序的合法性或相关权益存在质疑或反驳，请将合法证明和叙述发送到 caslen08@icloud.com，我们会积极跟进。  
 
 
