@@ -3,7 +3,6 @@ import tkinter as tk
 from tkinter import ttk
 import threading
 
-# 标志变量，用于跟踪窗口是否应该保持在最上方
 always_top = False
 
 
