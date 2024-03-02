@@ -1,5 +1,6 @@
-# DaiMust 系列软件：DaiMust 气象 / Weainfo
+# DaiMust 系列软件：DaiMust 气象 / Weainfo [English](### DaiMust Series Software: DaiMust Weather / Weainfo)
 ### 若对程序的合法性或相关权益存在质疑或反驳，请将合法证明和叙述发送到 caslen08@icloud.com，我们会积极跟进。  
+
 
 ## 使用教程
 --运行程序。  
@@ -30,3 +31,42 @@
 
 ## 版本更新
 V 1.0 2024-03-02 在Github上发布。  
+
+## DaiMust Series Software: DaiMust Weainfo
+
+### If you have any doubts or questions about the legality or related rights of the program, please send your legal proof and description to caslen08@icloud.com, and we will follow up promptly.
+
+## Usage Guide
+
+1. Run the program.
+2. In the "Location" bar, enter the name of the city/county/state etc. you want to query (currently the query can be accurate to the district level, some can be accurate to the street level, and it fully supports Chinese and English queries. District and above place names support 10+ languages such as Chinese, English, Korean, Russian, French, and Vietnamese).
+3. Click the "CHECK" button and wait for 3-5 seconds to get the data.
+
+## Precautions
+
+1. If Chinese place names are too precise (such as villages and towns), it is recommended to use Chinese query. If foreign place names are too precise, it is recommended to use English or the local language query.
+2. The weather data comes from openweathermap.org. It is reported by local weather stations. If you find that the weather data is wrong, please check the data with the local weather station. If it is indeed a program error, please feedback to GitHub Issues.
+3. If the program crashes after clicking the "CHECK" button, please restart your IDE and computer and try again.
+4. Currently only Chinese is supported for error reporting, please translate it yourself.
+5. Since this program is not for commercial use, the API for querying weather information is personally restrictive. Please do not waste every query.
+
+## Error Information
+
+- Get weather information failed: Please try to query in Chinese/English/local language, if the problem persists, it is a server problem, please try again later.
+- Request failed, status code: Please move to the "Error Status Code" below to see the error reason.
+- Location name error or API interface unavailable: Please try to query in Chinese/English/local language, if the problem persists, it is a server problem, please try again later.
+- Request unauthorized, please check if the API key is correct: Please feedback to GitHub Issues.
+- Get latitude and longitude failed, status code: Please move to the "Error Status Code" below to see the error reason.
+- Location does not exist: Please try to query in Chinese/English/local language, if the problem persists, please search for the official name of the location on Wikipedia/Baidu Encyclopedia and use the official name to query.
+
+## Error Status Code
+
+- 401: Please do not modify the PY file. If you have ruled out the possibility of modifying the PY file, please feedback to GitHub Issues.
+- 404: Please do not modify the PY file. If you have ruled out the possibility of modifying the PY file, please try to query in Chinese/English/local language. If the problem persists, please search for the official name of the location on Wikipedia/Baidu Encyclopedia and use the official name to query.
+- 429: The number of queries available for this program today has been used up. Please query again tomorrow.
+- 500, 502, 503, 504: Please send your system environment and Python version environment to caslen08@icloud.com, we will investigate the cause of the error.
+
+## Version Update
+
+V 1.0 2024-03-02 Released on Github.
+
