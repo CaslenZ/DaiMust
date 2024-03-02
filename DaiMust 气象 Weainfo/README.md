@@ -32,7 +32,8 @@
 ## 版本更新
 V 1.0 2024-03-02 在Github上发布。  
 
-## DaiMust Series Software: DaiMust Weainfo <a id="English"></a>
+## DaiMust Series Software: DaiMust Weainfo 
+<a id="English"></a>
 
 ### If you have any doubts or questions about the legality or related rights of the program, please send your legal proof and description to caslen08@icloud.com, and we will follow up promptly.
 
