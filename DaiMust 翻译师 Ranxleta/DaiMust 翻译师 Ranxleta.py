@@ -3,20 +3,20 @@ from tkinter import ttk, messagebox
 import requests
 import hashlib
 import random
-import json
+import webbrowser
 
-# 若对程序的合法性或相关权益存在质疑或反驳，请将合法证明和叙述发送到 caslen08@icloud.com，我们会积极跟进。
+import json
 
 app_key = ''
 
+def open_url():
+    url = "https://github.com/CaslenZ/DaiMust/tree/main/DaiMust%20%E7%BF%BB%E8%AF%91%E5%B8%88%20Ranxleta"
+    webbrowser.open(url)
 
 def save_app_key():
     global app_key
     app_key = key_input.get().strip()  # 获取并去除输入框两边的空白字符
     messagebox.showinfo("保存成功", "KEY已成功保存！")
-
-
-ip = requests.get('https://api.ipify.org').text
 
 def translate_text():
     text = text_input.get("1.0", tk.END).strip()
@@ -83,8 +83,7 @@ def translate_text():
             -请稍后再试。''')
 
 
-def show_about_dialog():
-    messagebox.showinfo("关于此软件", "本软件支持自动检测全球160+通用语言并翻译主流语言。\nGithub @CaslenZ\n感谢Baidu API提供支持。")
+
 
 
 window = tk.Tk()
@@ -124,10 +123,7 @@ translated_label.pack()
 translated_output = tk.Text(window, height=10, width=50)
 translated_output.pack()
 
-about_button = tk.Button(window, text="关于此软件", command=show_about_dialog)
+about_button = tk.Button(window, text="获取KEY", command=open_url)
 about_button.pack()
-
-translated_label = tk.Label(window, text='当前IP：'+ip)
-translated_label.pack()
 
 window.mainloop()

@@ -35,9 +35,6 @@ class TodoManager(tk.Tk):
         self.clear_todos_button = tk.Button(self, text="清空待办事项", command=self.clear_todos)
         self.clear_todos_button.pack(pady=5)
 
-        # 创建按钮用于显示关于信息
-        self.about_button = tk.Button(self, text="关于", command=self.show_about)
-        self.about_button.pack(pady=5)
 
         # 在程序启动时加载待办事项
         self.load_todos()
@@ -63,10 +60,6 @@ class TodoManager(tk.Tk):
         if selected_index:
             # 从列表框中删除选定的待办事项
             self.todo_list.delete(selected_index[0])
-
-    def show_about(self):
-        # 显示关于信息的弹窗
-        messagebox.showinfo("关于", "DaiMust 待办\nGithub @CaslenZ")
 
     def save_todos(self):
         with open("PlanToList.dmdata", "w", encoding="utf-8") as file:

@@ -1,17 +1,18 @@
 # DaiMust 系列软件：DaiMust 气象 / Weainfo  
 ### 若对程序的合法性或相关权益存在质疑或反驳，请将合法证明和叙述发送到 [caslenzh@gmail.com](mailto:caslenzh@gmail.com) ，我们会跟进。  
 
+## 依赖库
+sys requests PyQt5 PyQt5.QtCore Webbrowser
 
 ## 使用教程
 --运行程序。  
---在“地点 Location”一栏中输入您要查询的城市/县镇/州等的名称（目前查询可精确到区级，部分可精确到街道级，且全面支持中文和英文查询。区级及以上地名支持中、英、韩、俄、法、越等10+种语言查询）。  
---点击“查询 CHECK”按钮，等待3-5秒即可出数据。  
-
+--在 “地点 Location” 一栏中输入您要查询的城市/县镇/州等的名称（目前查询可精确到区级，部分可精确到街道级，且全面支持中文和英文查询。区级及以上地名支持中、英、韩、俄、法、越等10+种语言查询）。  
+--点击 “查询 CHECK” 按钮，等待3-5秒即可出数据。  
 
 ## 注意事项
 --中国地名若过于精确（如村、乡）建议使用中文查询。国外地名若过于精确建议使用英文或当地语言查询。  
 --气象数据来自 [OpenWeatherMap](https://openweathermap.org) 。由各地气象机关上报，若发现气象数据错误，请与当地气象机关数据核对，若确实是程序错误，请到 [GitHub Issues](https://github.com/CaslenZ/DaiMust/issues) 反馈。  
--若程序出现点击”查询 CHECK“按钮后闪退，请您重启 IDE 和电脑再试。  
+-若程序出现点击 “查询 CHECK“ 按钮后闪退，请您重启 IDE 和电脑再试。  
 --报错目前仅支持中文，烦请自行翻译。  
 --由于本程序不是用于商业用途，因此查询气象信息的API是个人限制性的，请您不要浪费每一次查询的次数。  
 
@@ -31,4 +32,4 @@
 -500、502、503、504：请您把您的系统环境和 Python 版本环境、报错状态码发送到 [caslenzh@gmail.com](mailto:caslenzh@gmail.com) ，我们会调查报错原因。  
 
 ## 版本更新
-V 1.0 2024-03-02 在 [Github](https://github.com/CaslenZ/DaiMust/tree/main/DaiMust%20%E6%B0%94%E8%B1%A1%20Weainfo) 上发布。  
+V 1.0 2024-03-02 在 [GitHub](https://github.com/CaslenZ/DaiMust/tree/main/DaiMust%20%E6%B0%94%E8%B1%A1%20Weainfo) 上发布。  

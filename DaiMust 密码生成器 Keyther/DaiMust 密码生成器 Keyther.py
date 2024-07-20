@@ -4,8 +4,6 @@ import tkinter as tk
 from tkinter import messagebox
 import pyperclip
 
-# 若对程序的合法性或相关权益存在质疑或反驳，请将合法证明和叙述发送到 caslen08@icloud.com，我们会积极跟进。
-
 def generate_password(length, include_uppercase, include_numbers, include_symbols):
     characters = string.ascii_lowercase
     if include_uppercase:
@@ -30,13 +28,9 @@ def generate_button_clicked():
     # 将密码复制到剪贴板
     pyperclip.copy(password)
 
-    messagebox.showinfo("DaiMust 密码生成器 Keyther", f'''DaiMust Keyther为您生成的密码为：
+    messagebox.showinfo("DaiMust 密码生成器 Keyther", f'''生成的密码为：
     {password}
     密码已自动复制到剪贴板。''')
-
-def show_dialog():
-    messagebox.showinfo("关于", '''
-    Github @CaslenZ''')
 
 # 创建主窗口
 window = tk.Tk()
@@ -65,11 +59,8 @@ symbols_checkbox.pack()
 generate_button = tk.Button(window, text="生成", command=generate_button_clicked)
 generate_button.pack()
 
-dialog_button = tk.Button(window, text="关于此软件", command=show_dialog)
-dialog_button.pack()
 
-label = tk.Label(window, text='''生成的密码默认含有小写字母，以上选项均为可选。
-DaiMust Keyther''')
+label = tk.Label(window, text='''生成的密码默认含有小写字母，以上选项均为可选。''')
 label.pack()
 
 # 运行主循环
